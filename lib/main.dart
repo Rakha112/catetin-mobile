@@ -20,17 +20,17 @@ void main() {
   );
 
   // SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual);
-  runApp(const MaterialApp(debugShowCheckedModeBanner: false, home: MyApp()));
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    // SystemChrome.setPreferredOrientations([
-    //   DeviceOrientation.portraitUp,
-    //   DeviceOrientation.portraitDown,
-    // ]);
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
     // ignore: unused_local_variable
     final loginController = Get.put(LoginController());
     // ignore: unused_local_variable
