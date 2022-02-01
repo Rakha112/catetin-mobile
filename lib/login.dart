@@ -52,10 +52,10 @@ class LoginPageState extends State<LoginPage> {
                       "Log In",
                       textAlign: TextAlign.center,
                       style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
+                        textStyle: const TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.w500,
-                          fontSize: 36.sp,
+                          fontSize: 36,
                         ),
                       ),
                     ),
@@ -73,10 +73,10 @@ class LoginPageState extends State<LoginPage> {
                             controller: username,
                             cursorColor: Colors.black,
                             style: GoogleFonts.poppins(
-                              textStyle: TextStyle(
+                              textStyle: const TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.w500,
-                                fontSize: 14.sp,
+                                fontSize: 14,
                               ),
                             ),
                             decoration: InputDecoration(
@@ -112,10 +112,10 @@ class LoginPageState extends State<LoginPage> {
                             controller: password,
                             cursorColor: Colors.black,
                             style: GoogleFonts.poppins(
-                              textStyle: TextStyle(
+                              textStyle: const TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.w500,
-                                fontSize: 14.sp,
+                                fontSize: 14,
                               ),
                             ),
                             obscureText: true,
@@ -164,10 +164,10 @@ class LoginPageState extends State<LoginPage> {
                           RichText(
                             text: TextSpan(
                               style: GoogleFonts.poppins(
-                                textStyle: TextStyle(
+                                textStyle: const TextStyle(
                                   color: Colors.black,
                                   fontWeight: FontWeight.w500,
-                                  fontSize: 14.sp,
+                                  fontSize: 14,
                                 ),
                               ),
                               children: <TextSpan>[
@@ -176,10 +176,10 @@ class LoginPageState extends State<LoginPage> {
                                 TextSpan(
                                   text: 'Sign Up',
                                   style: GoogleFonts.poppins(
-                                    textStyle: TextStyle(
+                                    textStyle: const TextStyle(
                                       color: Colors.black,
                                       fontWeight: FontWeight.w700,
-                                      fontSize: 14.sp,
+                                      fontSize: 14,
                                     ),
                                   ),
                                   recognizer: TapGestureRecognizer()

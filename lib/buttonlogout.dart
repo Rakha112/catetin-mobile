@@ -50,7 +50,7 @@ class _ButtonLogoutState extends State<ButtonLogout> {
               textStyle: TextStyle(
                   color: Color(widget.warnatxt),
                   fontWeight: FontWeight.w500,
-                  fontSize: 18.sp),
+                  fontSize: 18),
             ),
           ),
         ),

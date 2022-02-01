@@ -49,12 +49,12 @@ class _NoteSpesificState extends State<NoteSpesific> {
                 onPressed: () {
                   Get.bottomSheet(
                     SizedBox(
-                      height: 150.w,
+                      height: 150,
                       child: Padding(
                         padding: EdgeInsets.only(top: 8.h),
                         child: Column(
                           children: [
-                            SizedBox(height: 15.h),
+                            const SizedBox(height: 15),
                             Obx(() => noteController.isEdit.value == false
                                 ? const SaveButton()
                                 : const EditButton()),
@@ -93,10 +93,10 @@ class _NoteSpesificState extends State<NoteSpesific> {
                   child: Text(
                     noteController.judul.value,
                     style: GoogleFonts.poppins(
-                      textStyle: TextStyle(
+                      textStyle: const TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.w500,
-                          fontSize: 20.sp),
+                          fontSize: 20),
                     ),
                   ),
                 ),
@@ -116,10 +116,10 @@ class _NoteSpesificState extends State<NoteSpesific> {
                       controller: isi,
                       cursorColor: Colors.black,
                       style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
+                        textStyle: const TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.w500,
-                          fontSize: 16.sp,
+                          fontSize: 16,
                         ),
                       ),
                       decoration: InputDecoration(

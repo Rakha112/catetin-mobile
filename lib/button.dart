@@ -17,31 +17,26 @@ class Button extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ScreenUtilInit(
-      designSize: const Size(393, 856),
-      builder: () => SizedBox(
-        width: double.infinity,
-        height: 55,
-        child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 40),
-          child: TextButton(
-            onPressed: () => {
-              textbtn == "Log in"
-                  ? Get.toNamed("/login")
-                  : Get.toNamed("/signup")
-            },
-            style: TextButton.styleFrom(
-                backgroundColor: Color(warnabg),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(50))),
-            child: Text(
-              textbtn,
-              style: GoogleFonts.poppins(
-                textStyle: TextStyle(
-                  color: Color(warnatxt),
-                  fontWeight: FontWeight.w500,
-                  fontSize: 18,
-                ),
+    return SizedBox(
+      width: double.infinity,
+      height: 55,
+      child: Padding(
+        padding: EdgeInsets.symmetric(horizontal: 40.w),
+        child: TextButton(
+          onPressed: () => {
+            textbtn == "Log in" ? Get.toNamed("/login") : Get.toNamed("/signup")
+          },
+          style: TextButton.styleFrom(
+              backgroundColor: Color(warnabg),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(50))),
+          child: Text(
+            textbtn,
+            style: GoogleFonts.poppins(
+              textStyle: TextStyle(
+                color: Color(warnatxt),
+                fontWeight: FontWeight.w500,
+                fontSize: 18,
               ),
             ),
           ),

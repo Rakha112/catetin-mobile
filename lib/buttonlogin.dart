@@ -41,7 +41,7 @@ class _ButtonLoginState extends State<ButtonLogin> {
   Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
-      height: 55.w,
+      height: 55,
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 40.w),
         child: TextButton(
@@ -114,7 +114,7 @@ class _ButtonLoginState extends State<ButtonLogin> {
                   textStyle: TextStyle(
                       color: Color(widget.warnatxt),
                       fontWeight: FontWeight.w500,
-                      fontSize: 18.sp))),
+                      fontSize: 18))),
         ),
       ),
     );

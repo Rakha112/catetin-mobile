@@ -47,10 +47,10 @@ class SaveButton extends StatelessWidget {
         title: Text(
           "Save",
           style: GoogleFonts.poppins(
-            textStyle: TextStyle(
+            textStyle: const TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w500,
-              fontSize: 18.sp,
+              fontSize: 18,
             ),
           ),
         ),

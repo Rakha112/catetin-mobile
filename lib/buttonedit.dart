@@ -25,10 +25,10 @@ class EditButton extends StatelessWidget {
         title: Text(
           "Edit",
           style: GoogleFonts.poppins(
-            textStyle: TextStyle(
+            textStyle: const TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w500,
-              fontSize: 18.sp,
+              fontSize: 18,
             ),
           ),
         ),

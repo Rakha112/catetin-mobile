@@ -37,7 +37,7 @@ class _NoteListState extends State<NoteList> {
             },
             child: Container(
               width: double.infinity,
-              height: 60.w,
+              height: 60,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 color: const Color(0xfff4f6f8),
@@ -45,7 +45,7 @@ class _NoteListState extends State<NoteList> {
               child: Row(
                 children: [
                   Container(
-                    width: 60.w,
+                    width: 60,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       color: const Color(0xffe6ecfc),
@@ -53,7 +53,7 @@ class _NoteListState extends State<NoteList> {
                     child: Center(
                       child: SvgPicture.asset(
                         'image/note.svg',
-                        height: 40.w,
+                        height: 40,
                       ),
                     ),
                   ),
@@ -62,10 +62,10 @@ class _NoteListState extends State<NoteList> {
                     child: Text(
                       widget.judul,
                       style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
+                        textStyle: const TextStyle(
                           color: Color(0xff000000),
                           fontWeight: FontWeight.w500,
-                          fontSize: 18.sp,
+                          fontSize: 18,
                         ),
                       ),
                     ),

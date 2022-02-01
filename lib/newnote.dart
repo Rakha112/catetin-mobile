@@ -56,12 +56,12 @@ class _NewNoteState extends State<NewNote> {
                   onPressed: () {
                     Get.bottomSheet(
                       SizedBox(
-                        height: 100.w,
+                        height: 100,
                         child: Padding(
                           padding: EdgeInsets.only(top: 8.h),
                           child: Column(
                             children: [
-                              SizedBox(height: 15.h),
+                              SizedBox(height: 15),
                               ElevatedButton(
                                 style: ElevatedButton.styleFrom(
                                   elevation: 0.0,
@@ -119,10 +119,10 @@ class _NewNoteState extends State<NewNote> {
                                   title: Text(
                                     "Save",
                                     style: GoogleFonts.poppins(
-                                      textStyle: TextStyle(
+                                      textStyle: const TextStyle(
                                         color: Colors.black,
                                         fontWeight: FontWeight.w500,
-                                        fontSize: 18.sp,
+                                        fontSize: 18,
                                       ),
                                     ),
                                   ),
@@ -157,10 +157,10 @@ class _NewNoteState extends State<NewNote> {
                       controller: judul,
                       cursorColor: Colors.black,
                       style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
+                        textStyle: const TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.w500,
-                          fontSize: 18.sp,
+                          fontSize: 18,
                         ),
                       ),
                       decoration: const InputDecoration(
@@ -186,10 +186,10 @@ class _NewNoteState extends State<NewNote> {
                         controller: isi,
                         cursorColor: Colors.black,
                         style: GoogleFonts.poppins(
-                          textStyle: TextStyle(
+                          textStyle: const TextStyle(
                             color: Colors.black,
                             fontWeight: FontWeight.w500,
-                            fontSize: 16.sp,
+                            fontSize: 16,
                           ),
                         ),
                         decoration: InputDecoration(

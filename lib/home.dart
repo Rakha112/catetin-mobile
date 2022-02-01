@@ -27,17 +27,17 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Image.asset(
               "image/CATETIN2.png",
-              height: 30.sp,
+              height: 30,
             ),
             Padding(
               padding: EdgeInsets.only(left: 10.w),
               child: Text(
                 "CATETIN",
                 style: GoogleFonts.poppins(
-                    textStyle: TextStyle(
+                    textStyle: const TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w700,
-                  fontSize: 18.sp,
+                  fontSize: 18,
                 )),
               ),
             )
@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 0.5,
                 Image.asset(
                   "image/CATETIN.png",
-                  width: 280.w,
+                  width: 280,
                 ),
               ),
             ),
@@ -66,10 +66,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   "CATETIN merupakan tempat untuk menulis dan mencatat apapun yang ingin anda tulis dan catat",
                   textAlign: TextAlign.center,
                   style: GoogleFonts.poppins(
-                    textStyle: TextStyle(
+                    textStyle: const TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.w500,
-                      fontSize: 18.sp,
+                      fontSize: 18,
                     ),
                   ),
                 ),
